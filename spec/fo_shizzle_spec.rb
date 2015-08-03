@@ -7,6 +7,12 @@ describe('String#fo_shizzle') do
   end
 end
 
+describe('String#fo_shizzle') do
+  it("replaces the letter s in a sentence with the letter z") do
+    expect(("Hello sunshine").fo_shizzle()).to(eq("Hello zunzhine"))
+  end
+end
+
 
 
 
